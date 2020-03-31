@@ -1,0 +1,323 @@
+/* This is the base CSS file */
+
+/* Border Box */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+/* basic styles */
+
+body {
+	color: #2F2F2F;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+/* typography */
+
+p {
+	font-size: 1em;
+	margin: 0 0 20px 0;
+	
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 1.1;
+	text-align: center;
+	
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 1.1;
+
+	
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 1.375em;
+	line-height: 1.1;
+	
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.1;
+	
+}
+
+h5 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 0.9em;
+	line-height: 1.1;
+	
+}
+
+h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 0.813em;
+	line-height: 1.1;
+	
+}
+
+.large-text {
+	font-size: 1.375em;
+	line-height: 1.4;
+}
+
+.small-text {
+	font-size: 0.75em;
+	line-height: 1.2;
+}
+
+
+/* simple grid - 12 columms 60/20 */ 
+
+
+.columms_1 {
+	width: 940px;
+	float: left;
+}
+
+
+.columms_2 {
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columms_2:last-of-type {
+	margin-right: 0;
+}
+
+.columms_3 {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columms_3:last-of-type {
+	margin-right: 0;
+}
+
+.columms_4 {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columms_4:last-of-type {
+	margin-right: 0;
+}
+
+.columms_6 {
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columms_6:last-of-type {
+	margin-right: 0;
+}
+
+.columms_12 {
+	width: 60px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columms_12:last-of-type {
+	margin-right: 0;
+}
+
+/* misc HTML */
+
+.align-right {
+	float: right;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.align-left {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.align-center {
+	display: block;
+	margin: 0 auto; 
+}
+
+.container {
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+
+.section-head {
+	margin-top:0; 
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+
+.section-copy {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+
+
+/* buttons */ 
+
+.button-lesson {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #94ddff;
+
+}
+
+.solid-btn {
+	display: inline-block; 
+	padding: 10px 20px; 
+	background-color: #7dbbe6;
+	font-size: 20px; 
+	border-radius: 5px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+.solid-btn:hover {
+	background-color: #7199b3;
+}
+
+.lt-otl-btn {
+	display: inline-block; 
+	padding: 10px 25px; 
+	border: 1px solid #ffffff;
+	font-size: 20px; 
+	border-radius: 5px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.lt-otl-btn:hover {
+	color: #000000;
+	border-color: #000000;
+}
+
+.drk-otl-btn {
+	display: inline-block;
+	padding: 10px 25px; 
+	border: 1px solid #000000;
+	font-size: 20px; 
+	border-radius: 5px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+	
+}
+
+.drk-otl-btn:hover {
+	color:red;
+	border-color:red;
+	
+}
+
+.lt-otl-submit-btn {
+	display: inline-block; 
+	padding: 10px 25px; 
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	font-size: 20px; 
+	border-radius: 20px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+	
+}
+
+.lt-otl-submit-btn:hover {
+color: #000000;
+	border-color: #000000;
+}
+
+.drk-otl-submit-btn {
+	display: inline-block;
+	padding: 10px 25px; 
+	background-color: transparent;
+	border: 1px solid #000000;
+	font-size: 20px; 
+	border-radius: 20px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+.drk-otl-submit-btn:hover {
+	color:red;
+	border-color:red;
+}
+
+.solid-submit-btn{
+	display: inline-block; 
+	padding: 10px 25px; 
+	background-color: #7dbbe6;
+	font-size: 20px; 
+	border-radius: 20px;
+    margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+.solid-submit-btn:hover {
+	background-color: #7199b3;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
