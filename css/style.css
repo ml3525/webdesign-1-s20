@@ -84,6 +84,10 @@ nav li {
 	padding: 100px 0; 
 	background-color: #FFFFFF; 
 	text-align: center;
+	background-image: url("../images/612664395a40232133447d33247d383531353432323030.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
 }
 
 .testimonials img {
@@ -97,7 +101,7 @@ nav li {
 .projects {
 	width: 100%; 
 	padding: 100px 0;
-	background-color: #efefef;
+	background-color: #FFD300;
 }
 
 
@@ -175,7 +179,7 @@ nav li {
 .memberships{
 	width: 100%;
 	padding: 100px 0; 
-	background-color: #efefef;
+	background-color: #FFD300;
 }
 
 .membership-free, 
@@ -251,7 +255,7 @@ nav li {
 .contact {
 	width: 100%; 
 	padding: 100px 0;
-	background-color: #efefef;
+	background-color: #FFD300;
 }
 
 .contact img {
@@ -288,12 +292,12 @@ footer {
 	width: 100%;
 	padding: 50px 0;
 	text-align: center; 
-	background-color: #3c3c3c;
+	background-color: #52C43B;
 }
 
 .copyright {
 	width: 100%;
-	color: #959595;
+	color: #FFD300;
 }
 
 .copyright p {
