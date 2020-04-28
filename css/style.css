@@ -155,9 +155,10 @@ nav li {
 }
 
 .features-copy {
-	text-align: left; 
+	text-align: center; 
 	margin-left: 50px; 
 	margin-bottom: 20px;
+	 
 
 }
 
@@ -192,15 +193,15 @@ nav li {
 }
 
 .membership-free{
-	background-color: #a3a3a3;
+	background-color: #0091FF;
 }
 
 .membership-monthly{
-	background-color: #6e6e6e;
+	background-color: #52C43B;
 }
 
 .membership-yearly{
-	background-color: #a3a3a3;
+	background-color: #0091FF;
 }
 
 .membership-cost {
@@ -209,7 +210,7 @@ nav li {
 	text-align: center;
 	padding: 10px 0;
 	margin-bottom: 20px;
-	background-color: #dedede
+	background-color: #dedede;
 }
 
 .membership-features{
