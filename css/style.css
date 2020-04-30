@@ -35,7 +35,22 @@ nav li {
 	margin-left: 20px;
 	cursor: pointer;
 }
+nav li a:link {
+	color: #091c5a;
+	text-decoration: none;
+}
 
+nav li a:visted {
+	color: #091c5a;
+}
+
+nav li a:hover {
+	color: #ff6600;
+}
+
+nav li a:active {
+	color: #ff6600;
+}
 
 /* Hero Image */ 
 
@@ -84,10 +99,11 @@ nav li {
 	padding: 100px 0; 
 	background-color: #FFFFFF; 
 	text-align: center;
-	background-image: url("../images/612664395a40232133447d33247d383531353432323030.jpg"); 
+	background-image: url("../images/trinidad-cuba-1080x675.jpg"); 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
+	opacity: 50%; 
 }
 
 .testimonials img {
@@ -107,6 +123,7 @@ nav li {
 
 .project-box {
 	background-color: #F8F8F8;	
+	height: 430px; 
 }
 
 .project-text {
