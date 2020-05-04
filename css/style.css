@@ -79,6 +79,7 @@ nav li a:active {
 	width: 100%;
 	padding: 130px 0;
 	background-color: #FFD300;
+	text-align: center; 
 }
 
 
@@ -90,18 +91,22 @@ nav li a:active {
 	background-color: #EFEFEF;
 }
 
+.activities {
+	width: 100%; 
+	padding: 100px 0;
+	background-color: #FFD300;
+}
+
+
+
 
 /* customer testimoinals */
 .testimonials {
 	width:100%;
 	padding: 100px 0; 
-	background-color: #FFFFFF; 
+	background-color: #FFD300; 
 	text-align: center;
-	background-image: url("../images/Playa-Ancon-Trinidad-Cuba-1.jpg"); 
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover; 
-	opacity: 50%; 
+	
 	
 }
 
@@ -113,10 +118,10 @@ nav li a:active {
 
 /* Projects */ 
 
-.projects {
+.hotels {
 	width: 100%; 
 	padding: 100px 0;
-	background-color: #FFD300;
+	background-color: #ffffff;
 }
 
 
@@ -157,11 +162,16 @@ nav li a:active {
 
 
 
-/* Features */
-.features {
+/* Unesco */
+.unesco {
 	width: 100%; 
 	padding: 100px 0; 
 	background-color: #ffffff;
+	text-align: center;
+	background-image: url("../images/Playa-Acon-Trinidad-Cuba-Guide.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
 }
 
 .features-subhead {
@@ -259,14 +269,41 @@ nav li a:active {
 	color: #515255;
 }
 
-/* location */ 
+.culture {
+	width: 100%;
+	padding: 130px 0;
+	background-color: #ffffff;
+	text-align: center; 
+	background-image: url("../images/fixedw_large_4x.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	color: #F8F8F8;
+}
 
-.locations {
+/* gallery */ 
+
+.gallery {
 	width: 100%;
 	padding: 100px 0; 
 	background-color: #ffffff;
 	
 }
+
+.history {
+	width: 100%;
+	padding: 130px 0;
+	background-color: #ffffff;
+	text-align: center; 
+	background-image: url("../images/servlet.ImageServer.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+}
+
+
+
 
 /* Contact Us */ 
 
@@ -330,17 +367,17 @@ footer {
 }
 
 footer a:link {
-	color: #959595;
+	color: #F8F8F8;
 	text-decoration: none;
 }
 
 footer a:visited {
-	color: #959595;
+	color:#F8F8F8;
 	text-decoration: none;
 }
 
 footer a:hover {
-	color: #ffffff;
+	color: #FFD300;
 	text-decoration: underline;
 }
 
