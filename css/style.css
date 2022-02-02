@@ -12,7 +12,7 @@ header{
 	width: 150px;
 	height: 14px;
 	float: left;
-	size: 2em;
+	size: 24pt;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -390,7 +390,7 @@ footer a:active {
 
 
 .row h2 {
-	size: 24px;
+	size: 24pt;
 	color: #52C43B;
 }
 
