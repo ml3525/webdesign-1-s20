@@ -8,13 +8,23 @@ header{
 	z-index: 1000;
 }
 
+.nav-logo {
+	height: 57px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.nav-logo img {
+	height: 100%;
+}
 .logo {
 	width: 150px;
 	height: 14px;
 	float: left;
 	size: 24pt;
-	margin-top: 20px;
-	margin-bottom: 20px;
+
 }
 
 nav{
