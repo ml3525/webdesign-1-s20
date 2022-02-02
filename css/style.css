@@ -389,8 +389,10 @@ footer a:active {
 }
 
 
-
-
+.row h2 {
+	size: 15px;
+	color: #52C43B;
+}
 
 
 
