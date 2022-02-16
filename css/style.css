@@ -83,7 +83,9 @@ nav li a:active {
 }
 
 
-
+h2 {
+	padding: 25px;
+}
 
 /* Introduction */
 
@@ -177,6 +179,7 @@ nav li a:active {
 /* Unesco */
 .unesco {
 	width: 100%; 
+	color: white;
 	padding: 100px 0; 
 	background-color: #ffffff;
 	text-align: center;
@@ -184,6 +187,7 @@ nav li a:active {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
+	text-shadow: 1px 1px #000000;
 }
 
 .features-subhead {
@@ -231,15 +235,15 @@ nav li a:active {
 }
 
 .membership-free{
-	background-color: #0091FF;
+	background-color: #023781;
 }
 
 .membership-monthly{
-	background-color: #52C43B;
+	background-color: #023781;
 }
 
 .membership-yearly{
-	background-color: #0091FF;
+	background-color: #023781;
 }
 
 .membership-cost {
@@ -281,6 +285,8 @@ nav li a:active {
 	color: #515255;
 }
 
+
+
 .culture {
 	width: 100%;
 	padding: 130px 0;
@@ -291,6 +297,7 @@ nav li a:active {
 	background-position: center;
 	background-size: cover; 
 	color: #F8F8F8;
+	text-shadow: 1px 1px #000000;
 }
 
 /* gallery */ 
@@ -312,6 +319,7 @@ nav li a:active {
 	background-position: center;
 	background-size: cover;
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 }
 
 
@@ -359,7 +367,7 @@ footer {
 	width: 100%;
 	padding: 50px 0;
 	text-align: center; 
-	background-color: #52C43B;
+	background-color: #023781;
 }
 
 .copyright {
