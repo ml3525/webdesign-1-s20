@@ -297,7 +297,7 @@ h2 {
 	background-position: center;
 	background-size: cover; 
 	color: #F8F8F8;
-	text-shadow: 1px 1px #000000;
+	
 }
 
 /* gallery */ 
@@ -314,12 +314,13 @@ h2 {
 	padding: 130px 0;
 	background-color: #ffffff;
 	text-align: center; 
-	background-image: url("../images/servlet.ImageServer.jpg"); 
+	background-image: url("../images/servlet.jpg"); 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
+	
+	
 }
 
 
