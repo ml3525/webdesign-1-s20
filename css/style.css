@@ -5,6 +5,7 @@ header{
 	background-color: #FFD300;
 	position:fixed;
 	top:0;
+	padding: 15px;
 	z-index: 1000;
 }
 
@@ -187,7 +188,7 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
-	text-shadow: 1px 1px #000000;
+	
 }
 
 .features-subhead {
